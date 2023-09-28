@@ -1,7 +1,7 @@
 import Prompt from "@models/prompt";
 import { connectToDB } from "@utils/database";
 
-
+export const revalidate = 1; //revalidate api every 1 second
  const handler= async (req)=>{
     try {
         await connectToDB();
