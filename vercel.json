@@ -1,0 +1,13 @@
+{
+    "build": {
+      "headers": {
+        "/static/*": {
+          "Cache-Control": "public, max-age=3600"
+        },
+        "/server/*": {
+            "Cache-Control": "public, max-age=3600"
+          }
+      }
+    }
+  }
+  
